@@ -1,21 +1,20 @@
 /**** Google Font ****/
 
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Variables */
 
 :root {
     /* Color */
     --body_bg: #ffffff;
-    --body_color: #717171;
-    --primary_color: #000000;
-    --secondary_color: #422519;
-    --hover_color: #d2b48c;
+    --body_color: #000000;
+    --primary_color: #00000;
+    --secondary_color: #74B031;
+    --hover_color: #1e6d88;
     --light_color: #f9f8f3;
     /* Font Family */
-    --title_font: 'Prata', serif;
-    --body_font: 'Open Sans', sans-serif;
+    --title_font: 'Poppins', sans-serif;
+    --body_font: 'Poppins', sans-serif;
     /* Font Size Typo Variables */
     --fontsize_body: 16px;
     --heading_H1: 36px;
@@ -349,6 +348,7 @@ section.landing-section.section-padding {
     width: 180px;
 }
 
-.site-header .button, .site-header .theme-button {
+.site-header .button,
+.site-header .theme-button {
     margin: 0;
 }
